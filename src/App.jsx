@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Header from './components/Header'
 import EntryList from './components/EntryList'
 import AddEntryModal from './components/AddEntryModal'
@@ -7,7 +7,11 @@ import EditEntryModal from './components/EditEntryModal'
 import DeleteConfirmModal from './components/DeleteConfirmModal'
 
 function App() {
-  const [entries, setEntries] = useState([])
+  // Initialize entries from localStorage immediately
+  const [entries, setEntries] = useState(() => {
+    const storedEntries = localStorage.getItem('diaryEntries')
+    return storedEntries ? JSON.parse(storedEntries) : []
+  })
   const [selectedEntry, setSelectedEntry] = useState(null)
   const [isAddModalOpen, setIsAddModalOpen] = useState(false)
   const [isViewModalOpen, setIsViewModalOpen] = useState(false)
@@ -19,16 +23,15 @@ function App() {
     return saved ? JSON.parse(saved) : true
   })
 
-  // Load entries from localStorage on startup (FR012)
-  useEffect(() => {
-    const storedEntries = localStorage.getItem('diaryEntries')
-    if (storedEntries) {
-      setEntries(JSON.parse(storedEntries))
-    }
-  }, [])
+  // Track if initial load is complete to avoid overwriting on mount
+  const isInitialMount = useRef(true)
 
-  // Save entries to localStorage whenever they change (FR008)
+  // Save entries to localStorage whenever they change (but not on initial mount)
   useEffect(() => {
+    if (isInitialMount.current) {
+      isInitialMount.current = false
+      return
+    }
     localStorage.setItem('diaryEntries', JSON.stringify(entries))
   }, [entries])
 
