@@ -42,7 +42,7 @@ function App() {
 
   // Sort entries newest-first (FR011) and filter by search
   const sortedEntries = [...entries]
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .sort((a, b) => new Date(a.date) - new Date(b.date))
     .filter(entry => 
       entry.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       entry.content.toLowerCase().includes(searchQuery.toLowerCase())
