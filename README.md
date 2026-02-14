@@ -35,18 +35,31 @@ Der Fokus liegt auf UI/UX, modularer Struktur und klarer Trennung von Verantwort
 
 ## 🖼 UI Preview
 
-### 🏠 Entry Overview (Grid Layout)
+<table>
+  <tr>
+    <td><b>🏠 Entry Overview</b><br/><sub>Grid Layout</sub></td>
+    <td><b>➕ Create Entry</b><br/><sub>Modal</sub></td>
+    <td><b>👁 View / Edit</b><br/><sub>Dark Mode</sub></td>
+  </tr>
+  <tr>
+    <td>
+      <img alt="Entry Overview (Grid Layout)"
+           width="320"
+           src="https://github.com/user-attachments/assets/0764ffc3-7582-4460-a025-38628779f621" />
+    </td>
+    <td>
+      <img alt="Create Entry Modal"
+           width="320"
+           src="https://github.com/user-attachments/assets/5080ae1e-5a3a-46ba-8022-587a722836e2" />
+    </td>
+    <td>
+      <img alt="View / Edit Entry Modal in Dark Mode"
+           width="320"
+           src="https://github.com/user-attachments/assets/e1d41fae-85af-468e-93cd-dc4517de5d8e" />
+    </td>
+  </tr>
+</table>
 
-<img width="1909" height="939" alt="image" src="https://github.com/user-attachments/assets/0764ffc3-7582-4460-a025-38628779f621" />
- 
-
-### ➕ Create Entry Modal
-
-<img width="1914" height="936" alt="image" src="https://github.com/user-attachments/assets/5080ae1e-5a3a-46ba-8022-587a722836e2" />
-
-### 👁 View / Edit Entry Modal in Dark Mode
-
-<img width="1914" height="932" alt="image" src="https://github.com/user-attachments/assets/e1d41fae-85af-468e-93cd-dc4517de5d8e" />
 
 
 ---
