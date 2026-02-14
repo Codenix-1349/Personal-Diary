@@ -1,6 +1,18 @@
 # 📔 Personal Diary
 > Modern React Diary App with Modal Architecture, Image Support & Dark Mode
 
+<p align="center">
+  <img alt="React" title="React 18" height="36" style="margin:0 20px;" 
+       src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" />
+  <img alt="Vite" title="Vite" height="36" style="margin:0 20px;" 
+       src="https://raw.githubusercontent.com/github/explore/main/topics/vite/vite.png" />
+  <img alt="Tailwind CSS" title="Tailwind CSS" height="36" style="margin:0 20px;" 
+       src="https://raw.githubusercontent.com/github/explore/main/topics/tailwind/tailwind.png" />
+  <img alt="JavaScript" title="JavaScript" height="36" style="margin:0 20px;" 
+       src="https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png" />
+</p>
+
+
 ---
 
 ## 📖 Overview
@@ -32,7 +44,7 @@ Der Fokus liegt auf UI/UX, modularer Struktur und klarer Trennung von Verantwort
 
 <img width="1914" height="936" alt="image" src="https://github.com/user-attachments/assets/5080ae1e-5a3a-46ba-8022-587a722836e2" />
 
-### 👁 View / Edit Entry Modal
+### 👁 View / Edit Entry Modal in Dark Mode
 
 <img width="1914" height="932" alt="image" src="https://github.com/user-attachments/assets/e1d41fae-85af-468e-93cd-dc4517de5d8e" />
 
