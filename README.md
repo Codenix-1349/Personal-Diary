@@ -1,5 +1,5 @@
 # 📔 Personal Diary
-> Modern React diary frontend with modal workflows, image support & dark mode (React · Vite · TailwindCSS)
+> Modern React diary frontend with modal workflows, image support, persistent storage & dark mode (React · Vite · TailwindCSS)
 
 <p align="center">
   <img alt="React" title="React" height="36" style="margin:0 20px;"
@@ -18,6 +18,8 @@
 
 **Personal Diary** is a modern, responsive diary frontend project.  
 The focus is on **clean component structure**, **modal-based state management**, and a **polished UI** (Dark Mode + Grid Layout).
+
+The application includes persistent storage via **LocalStorage**, ensuring entries remain available across sessions.
 
 ---
 
@@ -52,14 +54,15 @@ The focus is on **clean component structure**, **modal-based state management**,
 
 ## ✨ Features
 
-### Core
+### Core Functionality
 - Create diary entries (title, date, content)
 - View entry details in overlay modal
 - Edit entries via modal workflow
 - Delete entries with confirmation modal
+- Persistent storage via LocalStorage
 - Empty-state UI (“No diary entries yet…”)
 
-### UI/UX
+### UI / UX
 - Responsive grid layout for entries
 - Dark mode toggle
 - Clear visual hierarchy (Cards → Modal → Actions)
@@ -87,11 +90,12 @@ src/
 └── index.css
 ```
 
-**Design Principle:**
-- `EntryList` = rendering layer
-- `EntryCard` = UI abstraction
-- Modals = single responsibility per workflow (Add / View / Edit / Delete)
-- State centralized in `App.jsx`, passed down via props
+### Design Principle
+
+- `EntryList` = rendering layer  
+- `EntryCard` = UI abstraction  
+- Modals = single responsibility per workflow (Add / View / Edit / Delete)  
+- State centralized in `App.jsx` and persisted to LocalStorage  
 
 ---
 
@@ -101,6 +105,7 @@ src/
 - **Vite** (development server / bundling)
 - **TailwindCSS** (utility-first styling)
 - **JavaScript (ES6+)**
+- **LocalStorage API**
 
 ---
 
@@ -124,8 +129,9 @@ http://localhost:5173
 ## 🎯 What This Project Demonstrates
 
 - Modal state management patterns
-- Controlled forms & validation-friendly structure
-- Reusable components (Card/List/Modal separation)
+- Controlled forms & clean workflow separation
+- Persistent client-side state (LocalStorage)
+- Reusable components (Card/List/Modal architecture)
 - Conditional rendering + theming (Dark Mode)
 - Responsive layout composition with TailwindCSS
 
@@ -133,7 +139,6 @@ http://localhost:5173
 
 ## 📦 Next Improvements
 
-- Persist entries (LocalStorage)
 - Backend integration (Firebase / Supabase)
 - Authentication (private diary mode)
 - Rich text / Markdown support
