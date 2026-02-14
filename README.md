@@ -30,9 +30,21 @@ Der Fokus liegt auf **sauberer Component-Struktur**, **State Management für mod
     <td><b>👁 View / Edit</b><br/><i>Dark Mode</i></td>
   </tr>
   <tr>
-    <td><img alt="Entry Overview" width="320" src="https://github.com/user-attachments/assets/0764ffc3-7582-4460-a025-38628779f621" /></td>
-    <td><img alt="Create Entry Modal" width="320" src="https://github.com/user-attachments/assets/5080ae1e-5a3a-46ba-8022-587a722836e2" /></td>
-    <td><img alt="View / Edit Entry (Dark Mode)" width="320" src="https://github.com/user-attachments/assets/e1d41fae-85af-468e-93cd-dc4517de5d8e" /></td>
+    <td>
+      <img alt="Entry Overview"
+           width="320"
+           src="https://github.com/user-attachments/assets/aa551ad4-3177-48f1-9a22-4a92a5dd684e" />
+    </td>
+    <td>
+      <img alt="Create Entry Modal"
+           width="320"
+           src="https://github.com/user-attachments/assets/5080ae1e-5a3a-46ba-8022-587a722836e2" />
+    </td>
+    <td>
+      <img alt="View / Edit Entry (Dark Mode)"
+           width="320"
+           src="https://github.com/user-attachments/assets/e1d41fae-85af-468e-93cd-dc4517de5d8e" />
+    </td>
   </tr>
 </table>
 
@@ -75,10 +87,10 @@ src/
 └── index.css
 ```
 
-**Design Principle:**  
-- `EntryList` = Rendering layer  
-- `EntryCard` = Card UI abstraction  
-- Modals = jeweils 1 Responsibility pro Workflow (Add / View / Edit / Delete)  
+**Design Principle:**
+- `EntryList` = Rendering layer
+- `EntryCard` = Card UI abstraction
+- Modals = 1 Responsibility pro Workflow (Add / View / Edit / Delete)
 - State zentral im `App.jsx`, Props runter in die Komponenten
 
 ---
@@ -95,15 +107,17 @@ src/
 ## 🚀 Getting Started
 
 ```bash
-git clone <YOUR_REPO_URL>
-cd personalDiary
+git clone https://github.com/Codenix-1349/Personal-Diary.git
+cd Personal-Diary
 npm install
 npm run dev
 ```
 
 Runs on:
 
-- `http://localhost:5173`
+```
+http://localhost:5173
+```
 
 ---
 
