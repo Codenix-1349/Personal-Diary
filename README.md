@@ -25,15 +25,17 @@ Der Fokus liegt auf UI/UX, modularer Struktur und klarer Trennung von Verantwort
 
 ### 🏠 Entry Overview (Grid Layout)
 
-<img width="1907" alt="Entry Grid" src="https://github.com/user-attachments/assets/1c2e6f05-77f0-4978-9926-309484362c5e" />
+<img width="1909" height="939" alt="image" src="https://github.com/user-attachments/assets/0764ffc3-7582-4460-a025-38628779f621" />
+ 
 
 ### ➕ Create Entry Modal
 
-<img width="1894" alt="New Entry Modal" src="https://github.com/user-attachments/assets/13c24ec0-efe7-4ce9-b58b-f1fb0335886a" />
+<img width="1914" height="936" alt="image" src="https://github.com/user-attachments/assets/5080ae1e-5a3a-46ba-8022-587a722836e2" />
 
 ### 👁 View / Edit Entry Modal
 
-<img width="1894" alt="View Entry Modal" src="https://github.com/user-attachments/assets/71874b20-b09b-47a2-b395-d5728b8faaea" />
+<img width="1914" height="932" alt="image" src="https://github.com/user-attachments/assets/e1d41fae-85af-468e-93cd-dc4517de5d8e" />
+
 
 ---
 
