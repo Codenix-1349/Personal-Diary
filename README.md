@@ -16,8 +16,8 @@
 
 ## 📖 Overview
 
-**Personal Diary** ist eine moderne, responsiv gestaltete Tagebuch-App als Frontend-Projekt.  
-Der Fokus liegt auf **sauberer Component-Struktur**, **State Management für modale Workflows** und einer **polierten UI** (Dark Mode + Grid Layout).
+**Personal Diary** is a modern, responsive diary frontend project.  
+The focus is on **clean component structure**, **modal-based state management**, and a **polished UI** (Dark Mode + Grid Layout).
 
 ---
 
@@ -53,7 +53,7 @@ Der Fokus liegt auf **sauberer Component-Struktur**, **State Management für mod
 ## ✨ Features
 
 ### Core
-- Create diary entries (Title, Date, Content)
+- Create diary entries (title, date, content)
 - View entry details in overlay modal
 - Edit entries via modal workflow
 - Delete entries with confirmation modal
@@ -61,7 +61,7 @@ Der Fokus liegt auf **sauberer Component-Struktur**, **State Management für mod
 
 ### UI/UX
 - Responsive grid layout for entries
-- Dark Mode toggle
+- Dark mode toggle
 - Clear visual hierarchy (Cards → Modal → Actions)
 
 ### Media + Search
@@ -88,18 +88,18 @@ src/
 ```
 
 **Design Principle:**
-- `EntryList` = Rendering layer
-- `EntryCard` = Card UI abstraction
-- Modals = 1 Responsibility pro Workflow (Add / View / Edit / Delete)
-- State zentral im `App.jsx`, Props runter in die Komponenten
+- `EntryList` = rendering layer
+- `EntryCard` = UI abstraction
+- Modals = single responsibility per workflow (Add / View / Edit / Delete)
+- State centralized in `App.jsx`, passed down via props
 
 ---
 
 ## 🛠 Tech Stack
 
-- **React** (Component Architecture, state-driven UI)
-- **Vite** (Dev Server / Bundling)
-- **TailwindCSS** (Utility-first Styling)
+- **React** (component architecture, state-driven UI)
+- **Vite** (development server / bundling)
+- **TailwindCSS** (utility-first styling)
 - **JavaScript (ES6+)**
 
 ---
@@ -134,10 +134,10 @@ http://localhost:5173
 ## 📦 Next Improvements
 
 - Persist entries (LocalStorage)
-- Backend (Firebase / Supabase)
-- Auth (private diary mode)
+- Backend integration (Firebase / Supabase)
+- Authentication (private diary mode)
 - Rich text / Markdown support
-- Tests (Vitest)
+- Testing (Vitest)
 
 ---
 
@@ -145,4 +145,4 @@ http://localhost:5173
 
 Patrick Neumann  
 GitHub: https://github.com/Codenix-1349  
-LinkedIn: https://linkedin.com/in/patrick-neumann-532367276
+LinkedIn: https://linkedin.com/in/patrick-neumann-532367276  
