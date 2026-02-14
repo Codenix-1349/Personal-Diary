@@ -46,7 +46,8 @@ Der Fokus liegt auf UI/UX, modularer Struktur und klarer Trennung von Verantwort
     <td>
       <img alt="Entry Overview (Grid Layout)"
            width="320"
-           src="https://github.com/user-attachments/assets/0764ffc3-7582-4460-a025-38628779f621" />
+           src="https://github.com/user-attachments/assets/cf6a3711-5bac-4738-8087-16e41592bf10" />
+
     </td>
     <td>
       <img alt="Create Entry Modal"
