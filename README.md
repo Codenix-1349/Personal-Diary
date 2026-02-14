@@ -1,5 +1,6 @@
 # 📔 Personal Diary
-> Modern React Diary App with Modal Architecture, Image Support & Dark Mode
+> Modern React Diary App with Modal Architecture, Image Support & Dark Mode (React + Vite + TailwindCSS)
+
 
 <p align="center">
   <img alt="React" title="React 18" height="36" style="margin:0 20px;" 
